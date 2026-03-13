@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ibrahim Mohammad Murshid - Resume</title>
+    <style>
+        :root {
+            --primary-color: #333;
+            --text-color: #444;
+            --header-color: #000;
+            --accent-color: #555;
+            --font-main: 'Segoe UI', Calibri, Arial, sans-serif;
+        }
+        
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            font-family: var(--font-main);
+            color: var(--text-color);
+            line-height: 1.4;
+            background-color: #fff;
+            padding: 30px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .header {
+            text-align: center;
+            border-bottom: 2px solid var(--primary-color);
+            padding-bottom: 15px;
+            margin-bottom: 15px;
+        }
+        
+        .header h1 {
+            color: var(--header-color);
+            font-size: 24px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 5px;
+        }
+        
+        .header h2 {
+            color: var(--accent-color);
+            font-size: 16px;
+            font-weight: 500;
+            margin-bottom: 10px;
+        }
+        
+        .contact-info {
+            font-size: 12px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 12px;
+            margin-bottom: 5px;
+        }
+        
+        .personal-details {
+            font-size: 11px;
+            font-style: italic;
+            display: flex;
+            justify-content: center;
+            gap: 12px;
+        }
+        
+        section {
+            margin-bottom: 12px;
+        }
+        
+        h3 {
+            color: var(--header-color);
+            font-size: 14px;
+            text-transform: uppercase;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 2px;
+            margin-bottom: 8px;
+        }
+        
+        .experience-item, .education-item {
+            margin-bottom: 8px;
+        }
+        
+        .item-header {
+            display: flex;
+            justify-content: space-between;
+            font-weight: bold;
+            font-size: 13px;
+            color: var(--primary-color);
+        }
+        
+        .item-sub {
+            display: flex;
+            justify-content: space-between;
+            font-style: italic;
+            font-size: 12px;
+            margin-bottom: 4px;
+        }
+        
+        ul {
+            margin-left: 18px;
+            font-size: 12.5px;
+        }
+        
+        li {
+            margin-bottom: 2px;
+        }
+        
+        .skills-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 8px;
+            font-size: 12px;
+        }
+        
+        .skills-group b {
+            font-size: 13px;
+            display: block;
+            margin-bottom: 2px;
+        }
+
+        @media print {
+            @page {
+                margin: 0; /* Removes browser headers and footers */
+            }
+            body {
+                margin: 1.5cm; /* Restores content margin */
+                padding: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Ibrahim Mohammad Murshid</h1>
+        <h2>IT Support Specialist | Operations Manager</h2>
+        
+        <div class="contact-info">
+            <span>📧 murshi479@gmail.com</span>
+            <span>📞 +91 8129155422</span>
+            <span>📱 WhatsApp: 8129155422</span>
+            <span>🌐 <a href="https://portfolio-mushid.vercel.app/" style="color: inherit; text-decoration: none;">Portfolio</a></span>
+        </div>
+        
+        <div class="personal-details">
+            <span>Nationality: Indian</span>
+            <span>Passport: C9086657</span>
+            <span>Visa Status: Already have Visa</span>
+        </div>
+    </div>
+
+    <section>
+        <h3>Professional Summary</h3>
+        <p style="font-size: 12.5px;">
+            Resourceful IT Support Professional and Area Manager with 1 year of experience balancing technical troubleshooting with branch-level operations. Proven expertise in resolving hardware/software issues and managing system performance while overseeing multi-branch operations and staff performance. Highly adaptable and motivated to support business growth and digital transformation in Saudi Arabia's evolving economy.
+        </p>
+    </section>
+
+    <section>
+        <h3>Core Experience</h3>
+        <div class="experience-item">
+            <div class="item-header">
+                <span>IT Support & Area Manager</span>
+                <span>Jan 2025 – Dec 2025</span>
+            </div>
+            <div class="item-sub">
+                <span>Althamar Dates & Nuts International LLP</span>
+                <span>India</span>
+            </div>
+            <ul>
+                <li>Maintained and optimized company software systems across multiple branches, ensuring 99%+ uptime for daily operations.</li>
+                <li>Diagnosed and resolved complex hardware, software, and network issues, significantly reducing operational downtime.</li>
+                <li>Directed operations for two branches as Area Manager, conducting weekly site audits to ensure compliance with standards.</li>
+                <li>Supervised branch staff and monitored KPIs, fostering a high-performance culture and improving customer service efficiency.</li>
+                <li>Bridged the gap between technical and business teams by translating operational needs into effective IT solutions.</li>
+                <li>Implemented workflow improvements that enhanced cross-branch coordination and resource management.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <h3>Technical Skills</h3>
+        <div class="skills-grid">
+            <div class="skills-group">
+                <b>IT Support & Software</b>
+                Hardware Troubleshooting, Software Installation, System Performance Tuning, Remote Support (TeamViewer, AnyDesk), Microsoft Office Suite, Network Maintenance.
+            </div>
+            <div class="skills-group">
+                <b>Development & Data</b>
+                HTML, CSS, JavaScript, Bootstrap, Full Stack Development, RESTful APIs, Database Management, Data Analytics.
+            </div>
+            <div class="skills-group">
+                <b>Management & Operations</b>
+                Multi-branch Oversight, Staff Supervision, KPI Tracking, Workflow Optimization, Documentation, Internal Reporting.
+            </div>
+            <div class="skills-group">
+                <b>Tools & Platforms</b>
+                Zoom, Microsoft Teams, Slack, Windows Environment, Web Deployment.
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h3>Education & Certification</h3>
+        <div class="item-header">
+            <span>Bachelor of Computer Applications (BCA)</span>
+            <span>2024</span>
+        </div>
+        <div class="item-sub">
+            <span>P A First Grade College (Mangalore University) | 71%</span>
+            <span>Mangalore, India</span>
+        </div>
+        
+        <div style="margin-top: 5px; font-size: 12px;">
+            <b>Full Stack Development Certification</b> | Gladsme Technologies | 2024<br>
+            <b>Junior Hardware Engineering (JHE) Certification</b>
+        </div>
+    </section>
+
+    <section>
+        <h3>Languages</h3>
+        <p style="font-size: 12px;">English (Professional), Hindi, Malayalam, Kannada, Tamil</p>
+    </section>
+
+</body>
+</html>

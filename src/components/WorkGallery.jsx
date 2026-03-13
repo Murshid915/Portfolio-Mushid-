@@ -16,22 +16,22 @@ const ProjectCard = ({ title, category, image, tools }) => (
 const WorkGallery = () => {
     const projects = [
         {
-            title: "Corporate Intranet",
-            category: "Communications Platform",
-            tools: "React, Node.js, and complex state management.",
-            image: "https://images.unsplash.com/photo-1497215728101-856f4ea42174?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+            title: "Full Stack Inventory",
+            category: "Web Application",
+            tools: "HTML, CSS, JavaScript, Bootstrap, REST APIs.",
+            image: "https://images.unsplash.com/photo-1586769852044-692d6e3703f0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
         },
         {
-            title: "Financial Dashboard",
-            category: "Real-time visualization",
-            tools: "D3.js, WebSockets, and high performance.",
-            image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+            title: "IT Support Dashboard",
+            category: "System Monitoring",
+            tools: "Software Maintenance, Network Optimization.",
+            image: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
         },
         {
-            title: "E-Commerce App",
-            category: "Minimalist shopping",
-            tools: "Next.js, Tailwind, Stripe integration.",
-            image: "https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+            title: "Branch Operations Platform",
+            category: "Management Tool",
+            tools: "Process Improvement, Compliance Tracking.",
+            image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
         }
     ];
 

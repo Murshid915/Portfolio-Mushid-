@@ -17,14 +17,16 @@ const Hero = () => {
             }} id="hero-grid">
                 
                 <div className="fade-in-left delay-100">
-                    <h1>Crafting elegant solutions <br /> through code and design.</h1>
+                    <h1>Ibrahim Mohammad Murshid</h1>
+                    <h2 style={{ fontSize: '1.5rem', marginTop: '0.5rem', color: 'var(--color-accent)', border: 'none', padding: 0 }}>IT Support / Area Manager</h2>
                     <p style={{
-                        fontSize: '1.2rem',
+                        fontSize: '1.1rem',
                         color: 'var(--color-dark-grey)',
-                        maxWidth: '600px',
+                        maxWidth: '650px',
                         marginTop: 'var(--space-sm)',
-                        marginBottom: 'var(--space-md)'
-                    }}>I am a software engineer specializing in refined, high-performance architectural systems and minimalist web experiences.</p>
+                        marginBottom: 'var(--space-md)',
+                        lineHeight: '1.8'
+                    }}>Resourceful IT professional with experience in technical troubleshooting and branch-level operations management. Specialized in maintaining software systems, resolving hardware issues, and driving team performance.</p>
                     <a href="#projects" className="btn-hero">View Work</a>
                 </div>
 

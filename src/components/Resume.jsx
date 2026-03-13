@@ -22,53 +22,72 @@ const Resume = () => {
         <section id="resume" className="section-padding container">
             <div className="resume-grid" id="resume-grid-layout">
                 
-                {/* Left Column: Education & Info */}
+                {/* Left Column: Experience & Education */}
                 <div className="fade-in-left delay-200">
-                    <h2>Education</h2>
+                    <h2>Experience</h2>
                     <div className="timeline">
                         <TimelineItem 
-                            date="2019 - 2023"
-                            title="B.S. in Computer Science"
-                            subtitle="University of Technology"
+                            date="Jan 2025 - Dec 2025"
+                            title="IT Support & Area Manager"
+                            subtitle="Althamar Dates & Nuts International LLP"
+                        />
+                        <div style={{ marginLeft: 'var(--space-md)', marginBottom: 'var(--space-md)', fontSize: '0.9rem', color: 'var(--color-dark-grey)' }}>
+                            <p>• Provided IT support to maintain and control company software systems.</p>
+                            <p>• Troubleshoot hardware and software issues, improving system reliability.</p>
+                            <p>• Oversaw operations and supervised staff across multiple branches.</p>
+                            <p>• Coordinated between technical and operational teams to bridge IT solutions with business needs.</p>
+                        </div>
+                    </div>
+
+                    <h2 style={{marginTop: '3rem'}}>Education</h2>
+                    <div className="timeline">
+                        <TimelineItem 
+                            date="2024"
+                            title="BCA"
+                            subtitle="P A First Grade College Mangalore (71%)"
                         />
                         <TimelineItem 
-                            date="2022"
-                            title="Advanced Web Architecture"
-                            subtitle="Certification, Professional Institute"
+                            date="2021"
+                            title="PUC (Commerce)"
+                            subtitle="Badriya College Mangalore (68%)"
+                        />
+                        <TimelineItem 
+                            date="2019"
+                            title="SSLC"
+                            subtitle="Kunnil EMS Manjeshwar (70%)"
                         />
                     </div>
 
-                    <h2 style={{marginTop: '3rem'}}>Additional Info</h2>
-                    <ul style={{listStyleType: 'none', marginLeft:'10px', paddingLeft:'1rem', borderLeft: '1px solid var(--color-light-grey)'}}>
-                        <li style={{marginBottom: '0.5rem', position:'relative'}}>
-                            <span style={{position: 'absolute', left:'-1rem', top:0, color:'var(--color-accent)'}}>&#10003;</span>
-                            <strong>Languages:</strong> English (Fluent), French (Intermediate)
-                        </li>
-                        <li style={{marginBottom: '0.5rem', position:'relative'}}>
-                            <span style={{position: 'absolute', left:'-1rem', top:0, color:'var(--color-accent)'}}>&#10003;</span>
-                            <strong>Awards:</strong> Dean's List (4 years)
-                        </li>
-                        <li style={{position:'relative'}}>
-                            <span style={{position: 'absolute', left:'-1rem', top:0, color:'var(--color-accent)'}}>&#10003;</span>
-                            <strong>Volunteer:</strong> Local Coding Bootcamp Mentor
-                        </li>
-                    </ul>
+                    <h2 style={{marginTop: '3rem'}}>Languages</h2>
+                    <div className="skills-list" style={{ marginTop: '1rem' }}>
+                        {['English', 'Hindi', 'Malayalam', 'Kannada', 'Tamil'].map((lang, i) => (
+                            <span key={i} className="skill-tag">{lang}</span>
+                        ))}
+                    </div>
                 </div>
 
-                {/* Right Column: Skills */}
+                {/* Right Column: Skills & Certifications */}
                 <div className="fade-in-right delay-400">
-                    <h2>Skills</h2>
+                    <h2>Software Skills</h2>
                     <SkillCategory 
-                        title="Technical"
-                        skills={['HTML5 / CSS3', 'JavaScript (ES6+)', 'React.js', 'Node.js', 'TypeScript', 'Python', 'SQL / NoSQL']}
+                        title="Technical Expertise"
+                        skills={['Software Installation & Maintenance', 'Hardware Troubleshooting', 'Network Solutions', 'System Monitoring', 'Remote Support (TeamViewer/AnyDesk)']}
                     />
                     <SkillCategory 
-                        title="Tools & Methods"
-                        skills={['Git / GitHub', 'Docker', 'Agile / Scrum', 'Figma', 'CI/CD']}
+                        title="Office & Communication"
+                        skills={['MS Office (Excel, PPT, Word)', 'Zoom / Teams / Slack']}
                     />
+                    
+                    <h2 style={{marginTop: '3rem'}}>Management Skills</h2>
                     <SkillCategory 
-                        title="Core Competencies"
-                        skills={['System Architecture', 'Performance Optimization', 'Problem Solving', 'Technical Writing']}
+                        title="Operations"
+                        skills={['Branch Operations Oversight', 'Staff Supervision', 'Process Improvement', 'Compliance Tracking', 'Technical Documentation']}
+                    />
+
+                    <h2 style={{marginTop: '3rem'}}>Additional Certifications</h2>
+                    <SkillCategory 
+                        title="Full Stack & More"
+                        skills={['Full Stack Development (HTML, CSS, JS, Bootstrap, RESTful APIs)', 'Data Analytics', 'Junior Hardware Engineering (JHE)']}
                     />
                 </div>
 
