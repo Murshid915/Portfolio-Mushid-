@@ -51,7 +51,7 @@ function App() {
       </main>
       <footer style={{ padding: '2rem 0', textAlign: 'center', borderTop: '1px solid var(--color-light-grey)', color: 'var(--color-grey)', fontSize: '0.85rem' }}>
         <div className="container">
-            &copy; {new Date().getFullYear()} Murshid. Designed with clarity and structure.
+            &copy; {new Date().getFullYear()} Ibrahim Mohammad Murshid. Designed with clarity and structure.
         </div>
       </footer>
     </>
